@@ -5,7 +5,7 @@
 }
 
 .add-board-container {
-  height: 200px;
+  height: 250px;
   width: 320px;
   border-radius: 3px;
   background-color: gray;
@@ -20,11 +20,20 @@
   display: block;
 }
 
+.starred {
+  margin-top: 20px;
+  color: white;
+}
+
 #selectPrivacy {
   background-color: transparent;
   border-width: 0;
   font-weight: 300;
   color: white;
+}
+
+#select-color {
+  margin-bottom: 10px;
 }
 
 .new-board-input {
@@ -37,6 +46,9 @@
 
 #board-title {
   background-color: transparent;
+  color: white;
+  margin-top: -12px;
+  margin-bottom: 12px;
 }
 
 #create-button {
@@ -53,8 +65,8 @@
 }
 
 #exit-icon {
-  height: 20px;
-  width: 20px;
+  height: 16px;
+  width: 16px;
 }
 
 #create-new-board {
