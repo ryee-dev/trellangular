@@ -12,12 +12,10 @@ import { FirebaseListObservable } from 'angularfire2/database';
 export class DashboardComponent implements OnInit {
 
   selectedBoard = null;
-  showForm = null;
+
   parentBoardList: Board[] = [
-    new Board('Welcome Board', '#42a35f', true, false)
+    new Board()
   ];
-
-
 
   createNewBoard(board) {
     this.parentBoardList.push(board);

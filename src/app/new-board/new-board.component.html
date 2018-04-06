@@ -25,13 +25,12 @@
           </select>
         </div>
         <div class="starred">
-          <label for="isStarred">Starred:</label>
+          <label>Starred:</label>
           <input #isStarred name="isStarred" type="checkbox">
         </div>
         <br>
       </div>
     </div>
-    <button (click)="finishAddingBoard(boardTitle.value, selectColor.value, isVisible.value); boardTitle.value=''; selectPrivacy.value='false'; selectColor.value=''"
-            type="submit" name="create-new-board" class="btn btn-light" id="create-button">Create Board</button>
+    <button (click)="finishAddingBoard(boardTitle.value, selectColor.value, isVisible.value, isStarred.value); boardTitle.value=''; selectColor.value=''; isVisible.value='false'; isStarred.value='false'" type="submit" name="create-new-board" class="btn btn-light" id="create-button">Create Board</button>
   </form>
 </div>

@@ -11,7 +11,7 @@ export class NewBoardComponent implements OnInit {
   showForm = null;
 
   finishAddingBoard(title: string, color: string, shared: boolean, starred: boolean) {
-    const newBoard = new Board(title, shared, color, starred);
+    const newBoard = new Board();
     this.sendCreateBoardList.emit(newBoard);
     this.showForm = null;
   }

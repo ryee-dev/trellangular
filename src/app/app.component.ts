@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {Board} from './models/board.model';
 
 @Component({
   selector: 'app-root',
