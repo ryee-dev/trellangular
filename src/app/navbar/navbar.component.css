@@ -1,0 +1,81 @@
+/* navbar */
+
+.row {
+  margin: auto;
+}
+
+#navbar {
+  background-color: #066aa4;
+  position: relative;
+  height: 40px;
+  width: 100%;
+}
+
+#navbar-logo {
+  position: absolute;
+  left: 50%;
+  height: 60%;
+  display: block;
+  margin: 7.5px auto;
+}
+
+#boards-button {
+  position: absolute;
+  height: 75%;
+  width: 100px;
+  display: block;
+  margin: 5px auto 5px 10px;
+  background-color: #5197bf;
+}
+
+.btn-img {
+  height: 60%;
+  position: absolute;
+  display: block;
+  margin: 0 auto;
+  left: 8px;
+}
+
+#button-text {
+  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+  color: white;
+  bottom: 4px;
+  margin-left: 25px;
+  font-weight: 500;
+}
+
+.nav-search {
+  display: block;
+  margin: auto 0;
+  height: 30px;
+  width: 180px;
+  position: fixed;
+  top: 5px;
+  left: 120px;
+  background-color: #5197bf;
+  border-radius: 3px;
+  border-width: 0;
+}
+
+#search-button {
+  position: absolute;
+  height: 18px;
+  width: 18px;
+  top: 19%;
+  left: 26%;
+  background-color: transparent;
+  border-width: 0;
+}
+
+
+#search-icon {
+  position: relative;
+  height: 18px;
+  width: 18px;
+  top: 7px;
+  left: 270px;
+  background-color: transparent;
+  border-width: 0;
+}
