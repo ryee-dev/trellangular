@@ -1,0 +1,89 @@
+.new-board-form {
+  position: absolute;
+  left: 40%;
+  top: 12%;
+}
+
+.add-board-container {
+  height: 200px;
+  width: 320px;
+  border-radius: 3px;
+  background-color: gray;
+}
+
+.form-control::-webkit-input-placeholder {
+  font-weight: bolder;
+  color: #adabab;
+}
+
+.dropdown {
+  display: block;
+}
+
+#selectPrivacy {
+  background-color: transparent;
+  border-width: 0;
+  font-weight: 300;
+  color: white;
+}
+
+.new-board-input {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  width: 95%;
+  top: 20px;
+}
+
+#board-title {
+  background-color: transparent;
+}
+
+#create-button {
+  margin-top: 5px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+#exit-button {
+  position: relative;
+  left: 85%;
+  top: 5px;
+  background-color: transparent;
+}
+
+#exit-icon {
+  height: 20px;
+  width: 20px;
+}
+
+#create-new-board {
+  background-color: #e2e4e6;
+  color: #838c90;
+}
+
+#create-new-board:hover {
+  background-color: #D6DADC;
+  color: #4D4D4D;
+}
+
+#new-board-text {
+  font-size: 14px;
+  font-weight: bolder;
+  position: absolute;
+  display: block;
+  left: 23%;
+  top: 35%;
+}
+
+.board-box {
+  position: relative;
+  height: 90px;
+  width: 250px;
+  min-height: 64px;
+  padding-bottom: 16px;
+  padding-right: 40px;
+  border-radius: 3px;
+  margin-right: 12px;
+  margin-top: 15px;
+}

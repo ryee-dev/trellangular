@@ -1,3 +1,5 @@
-<p>
-  board works!
-</p>
+<div *ngFor="let board of boards">
+  <button [ngStyle]="{'background-color': board.color}" type="button" name="button" class="btn board-box" id="existing-board">
+    <p class="board-text">{{board.title}}</p>
+  </button>
+</div>

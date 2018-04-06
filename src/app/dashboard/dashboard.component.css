@@ -1,0 +1,42 @@
+/* board-list */
+.board-box {
+  position: relative;
+  height: 90px;
+  width: 250px;
+  min-height: 64px;
+  padding-bottom: 16px;
+  padding-right: 40px;
+  border-radius: 3px;
+  margin-right: 12px;
+  margin-top: 15px;
+}
+
+
+#member-icon {
+  height: 20px;
+  width: 20px;
+  margin-right: 12px;
+}
+
+.sub-header {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+
+.board-text {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+#existing-board {
+  background-color: #42a35f;
+}
+
+#existing-board:hover {
+  background-color: #3A8F54;
+}

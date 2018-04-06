@@ -1,0 +1,37 @@
+<button (click)="clickedCreate()" type="button" class="btn board-box" id="create-new-board">
+  <p id="new-board-text">Create new board...</p>
+</button>
+
+<div class="row">
+  <form class="new-board-form" *ngIf="showForm">
+    <div class="add-board-container">
+      <button (click)="clickedExit()" type="button" name="button" id="exit-button" class="btn">
+        <img src="./assets/x.png" alt="x" id="exit-icon">
+      </button>
+      <div class="new-board-input">
+        <input #boardTitle type="text" class="form-control" id="board-title" placeholder="Add board title">
+        <div class="color-select-container">
+          <select #selectColor type="text" id="select-color" class="form-control">
+            <option value="black">Black</option>
+            <option value="red">Red</option>
+            <option value="grey">Grey</option>
+            <option value="blue">Blue</option>
+          </select>
+        </div>
+        <div class="dropdown">
+          <select #isVisible class="form-control" id="select-privacy">
+            <option value="true" id="dropdown-private">Public</option>
+            <option value="false" id="dropdown-public">Private</option>
+          </select>
+        </div>
+        <div class="starred">
+          <label for="isStarred">Starred:</label>
+          <input #isStarred name="isStarred" type="checkbox">
+        </div>
+        <br>
+      </div>
+    </div>
+    <button (click)="finishAddingBoard(boardTitle.value, selectColor.value, isVisible.value); boardTitle.value=''; selectPrivacy.value='false'; selectColor.value=''"
+            type="submit" name="create-new-board" class="btn btn-light" id="create-button">Create Board</button>
+  </form>
+</div>
