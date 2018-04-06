@@ -15,4 +15,12 @@ export class BoardService {
     return this.boards;
   }
 
+  addBoard(newBoard: Board) {
+    this.boards.push(newBoard);
+  }
+
+  getBoardId(boardId: number) {
+    return this.database.object('boards/' + boardId);
+  }
+
 }

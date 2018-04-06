@@ -20,4 +20,8 @@ export class BoardComponent implements OnInit {
     this.boards = this.boardService.getBoards();
   }
 
+  viewBoard(clickedBoard: Board) {
+    this.router.navigate(['boards', clickedBoard.$key]);
+  }
+
 }
