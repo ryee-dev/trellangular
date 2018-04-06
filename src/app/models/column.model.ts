@@ -1,5 +1,5 @@
 export class Column {
-  constructor(
+  constructor (
     public title: string
-  )
+  ) { }
 }
