@@ -3,6 +3,7 @@ export class Board {
     public title: string,
     public color: string,
     public shared: boolean,
-    public starred: boolean
+    public starred: boolean,
+    public id: number
   ) { }
 }

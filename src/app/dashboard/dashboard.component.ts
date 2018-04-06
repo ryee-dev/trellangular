@@ -10,15 +10,12 @@ import { FirebaseListObservable } from 'angularfire2/database';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
+  boards: FirebaseListObservable<any[]>;
 
   selectedBoard = null;
 
-  parentBoardList: Board[] = [
-    new Board()
-  ];
-
   createNewBoard(board) {
-    this.parentBoardList.push(board);
+    this.boards.push(board);
   }
 
   constructor() { }

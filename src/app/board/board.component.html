@@ -1,5 +1,5 @@
-<div *ngFor="let board of parentBoardList">
-  <button [ngStyle]="{'background-color': board.color}" type="button" name="button" class="btn board-box" id="existing-board">
+<div>
+  <button *ngFor="let board of boards | async" [ngStyle]="{'background-color': board.color}" type="button" name="button" class="btn board-box" id="existing-board">
     <p class="board-text">{{board.title}}</p>
   </button>
 </div>

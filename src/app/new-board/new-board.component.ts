@@ -10,8 +10,8 @@ export class NewBoardComponent implements OnInit {
   @Output() sendCreateBoardList = new EventEmitter();
   showForm = null;
 
-  finishAddingBoard(title: string, color: string, shared: boolean, starred: boolean) {
-    const newBoard = new Board();
+  finishAddingBoard(title: string, color: string, shared: boolean, starred: boolean, id: number) {
+    const newBoard = new Board(title, color, shared, starred, id);
     this.sendCreateBoardList.emit(newBoard);
     this.showForm = null;
   }
