@@ -1,56 +1,67 @@
 {
   "boards":
-  [{
-    "title": "Super Cool Board",
-    "color": "pink",
-    "visible": true,
-    "starred": false,
-    "id": "1",
-    "cards": [
-      {
-        "title": "Task A",
-        "description": "Work on task A.",
-        "tag": "important",
-        "color": "red"
-      },
-      {
-        "title": "Task B",
-        "description": "Finish task B.",
-        "tag": "moderate",
-        "color": "yellow"
-      },
-      {
-        "title": "Task C",
-        "description": "Start on task C.",
-        "tag": "casual",
-        "color": "green"
-      }
-    ]
-  },
+  [
+    {
+      "title": "Super Cool Board",
+      "color": "pink",
+      "visible": true,
+      "starred": false,
+      "id": "1",
+      "column": [
+        {
+          "title": "Tasks A-C",
+          "cards": [
+            {
+              "title": "Task A",
+              "description": "Work on task A.",
+              "tag": "important",
+              "color": "red"
+            },
+            {
+              "title": "Task B",
+              "description": "Finish task B.",
+              "tag": "moderate",
+              "color": "yellow"
+            },
+            {
+              "title": "Task C",
+              "description": "Start on task C.",
+              "tag": "casual",
+              "color": "green"
+            }
+          ]
+        }
+      ]
+    },
     {
       "title": "Cute Manly Board",
       "color": "black",
       "visible": true,
       "starred": false,
       "id": "2",
-      "cards": [
+      "column": [
         {
-          "title": "Task D",
-          "description": "Work on task D.",
-          "tag": "important",
-          "color": "red"
-        },
-        {
-          "title": "Task E",
-          "description": "Finish task E.",
-          "tag": "moderate",
-          "color": "yellow"
-        },
-        {
-          "title": "Task F",
-          "description": "Start on task F.",
-          "tag": "casual",
-          "color": "green"
+          "title": "Tasks D-F",
+          "cards": [
+            {
+              "title": "Task D",
+              "description": "Work on task D.",
+              "tag": "important",
+              "color": "red"
+            },
+            {
+              "title": "Task E",
+              "description": "Finish task E.",
+              "tag": "moderate",
+              "color": "yellow"
+            },
+            {
+              "title": "Task F",
+              "description": "Start on task F.",
+              "tag": "casual",
+              "color": "green"
+            }
+          ]
         }
       ]
     },
@@ -60,25 +71,31 @@
       "visible": true,
       "starred": false,
       "id": "3",
-      "cards": [
+      "column": [
         {
-          "title": "Task G",
-          "description": "Work on task G.",
-          "tag": "important",
-          "color": "red"
-        },
-        {
-          "title": "Task H",
-          "description": "Finish task H.",
-          "tag": "moderate",
-          "color": "yellow"
-        },
-        {
-          "title": "Task I",
-          "description": "Start on task I.",
-          "tag": "casual",
-          "color": "green"
+          "title": "Tasks G-I",
+          "cards": [
+            {
+              "title": "Task G",
+              "description": "Work on task G.",
+              "tag": "important",
+              "color": "red"
+            },
+            {
+              "title": "Task H",
+              "description": "Finish task H.",
+              "tag": "moderate",
+              "color": "yellow"
+            },
+            {
+              "title": "Task I",
+              "description": "Start on task I.",
+              "tag": "casual",
+              "color": "green"
+            }
+          ]
         }
       ]
-    }]
+    }
+  ]
 }
