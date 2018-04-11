@@ -7,4 +7,9 @@ import {Board} from './models/board.model';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
+
+  constructor() {
+
+  }
 }

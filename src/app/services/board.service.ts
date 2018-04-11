@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Board } from '../models/board.model';
-import { BOARDS } from '../mock-board';
+// import { BOARDS } from '../mock-board';
 import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
 
 @Injectable()
