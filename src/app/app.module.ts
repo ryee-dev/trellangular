@@ -18,6 +18,9 @@ import { BoardDetailsComponent } from './board-details/board-details.component';
 import { ColumnComponent } from './column/column.component';
 import { CardComponent } from './card/card.component';
 import { NewBoardComponent } from './new-board/new-board.component';
+import { LoginComponent } from './login/login.component';
+import { PrivateComponent } from './private/private.component';
+import { PublicComponent } from './public/public.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -35,7 +38,10 @@ export const firebaseConfig = {
     BoardDetailsComponent,
     ColumnComponent,
     CardComponent,
-    NewBoardComponent
+    NewBoardComponent,
+    LoginComponent,
+    PrivateComponent,
+    PublicComponent
   ],
   imports: [
     BrowserModule,
