@@ -1,9 +1,9 @@
 <!-- navbar.component.html -->
 
 <div class="row" id="navbar">
-  <button type="button" class="btn" id="boards-button">
+  <a routerLink="" class="btn" id="boards-button">
     <img src="./assets/trello-mark-white.png" alt="trello-mark-white" class="btn-img"><span id="button-text">Boards</span>
-  </button>
+  </a>
 
   <div class="navbarSearch">
     <form class="search-form">
@@ -14,8 +14,9 @@
     </form>
   </div>
 
-  <img src="./assets/trello-logo-navbar.png" alt="trello-logo-navbar" id="navbar-logo">
-
+  <a routerLink="">
+    <img src="./assets/trello-logo-navbar.png" alt="trello-logo-navbar" id="navbar-logo">
+  </a>
   <div class="login">
     <button type="button" class="btn" id="login-button">
       <span id="login-text">Log In</span>

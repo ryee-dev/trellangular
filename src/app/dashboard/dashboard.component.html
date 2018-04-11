@@ -1,11 +1,12 @@
 <!-- board-list.component.html -->
+<div class="container">
+  <div class="sub-header">
+    <img src="./assets/member-icon.png" alt="member-icon" id="member-icon">
+    <span id="sub-header-text">Personal Boards</span>
+  </div>
 
-<div class="sub-header">
-  <img src="./assets/member-icon.png" alt="member-icon" id="member-icon">
-  <span id="sub-header-text">Personal Boards</span>
-</div>
-
-<div class="row">
-  <app-board></app-board>
-  <app-new-board (sendCreateBoardList)="createNewBoard(board)"></app-new-board>
+  <div class="row">
+    <app-board></app-board>
+    <app-new-board (sendCreateBoardList)="createNewBoard(board)"></app-new-board>
+  </div>
 </div>

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { FirebaseListObservable } from 'angularfire2/database';
+import { Column } from '../models/column.model';
 
 @Component({
   selector: 'app-column',

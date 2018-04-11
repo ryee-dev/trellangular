@@ -1,0 +1,66 @@
+.card {
+  margin-left: 30px;
+}
+.board-bg {
+  background-color: #3078ba;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#card-1 {
+  position: absolute;
+  height: 90%;
+  width: 250px;
+  margin-top: 12px;
+  border-width: 0px;
+}
+
+#board-navbar {
+  background-color: #3078ba;
+  margin-left: 0;
+}
+
+.board-nav-text, .card-header, .card-body {
+  color: white;
+}
+
+.card-header {
+  position: absolute;
+  width: 100%;
+  background-color: white;
+  height: 4%;
+}
+
+.card-body {
+  background-color: #29679e;
+}
+
+.board-nav-text {
+  margin-left: 15px;
+  font-size: 16px;
+  position: relative;
+  top: 5px;
+}
+
+#col-title-input {
+  display: block;
+  width: 80%;
+  position: relative;
+  font-size: 14px;
+  margin: -8px auto auto -16px;
+}
+
+.add-list-button {
+  left: 70%;
+  margin-top: -28px;
+  height: 85%;
+  width: 72px;
+  display: block;
+  background-color: #629546;
+  color: white;
+  position: absolute;
+  font-size: 12px;
+  font-weight: 600;
+}
+
